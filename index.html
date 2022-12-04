@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <title>To-Do List</title>
+</head>
+
+<body>
+    <div id="container" class="col-11">
+        
+    <h1>To-Do List</h1>
+
+    <hr>    
+    </div>
+    <div id="container2">
+        <h3 class="h3">Nueva Tarea:</h3>
+        <input class="col-9" type="text" id="inputTask" placeholder="Agrega aqui tu nueva tarea">
+        <button id="btnAdd" class="btn btn-secondary">Agregar</button>
+    </div>
+    <div id="mainContainer" class="mainContainer">
+        <div id="counter" class="col-3">
+            <h3>Total: <span id="total">0</span></h3>
+            <h3>Realizadas: <Span id="made">0</Span></h3>
+        </div>
+            <div class="col-5">
+                <table class="table" id="taskList">
+                    <thead>
+                        <tr>
+                            <th scope="col">ID</th>
+                            <th scope="col">Tarea</th>
+                            <th scope="col"></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/app.js"></script>
+</body>
+
+</html>
+

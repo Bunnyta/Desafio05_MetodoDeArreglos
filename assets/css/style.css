@@ -1,0 +1,39 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+
+#inputTask{
+    margin-left: 100px;
+}
+   
+
+#mainContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+    justify-content:flex-start;
+}
+
+#counter{
+    padding-left: 200px;
+}
+
+#container{
+    
+    margin-left: 100px;
+}
+
+.h3{
+    margin-left: 100px;
+}
+
+
+
+
+
+
+
+
+
+
